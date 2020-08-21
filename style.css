@@ -1,0 +1,164 @@
+/*build am... - Poppins
+Navigation - Arimo
+*/
+
+@import url(@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+font-size: 15px;
+
+}
+nav{
+    
+   
+}
+nav ul{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    align-items:center;
+    font-family: 'Arimo', sans-serif;
+    list-style:none;
+    padding:10px;
+    
+    
+}
+
+
+#right-top-link{
+    font-weight:700;
+}
+
+.nav-link{
+   
+    text-decoration:none;
+    color: black;
+    
+    
+}
+
+
+.nav-link:hover{
+    color:grey;
+}
+
+
+
+
+nav ul li{
+    margin:0 18px;
+}
+
+nav img{
+    width:30px;
+    height:20px;
+   
+}
+
+#logo{
+    width:85px;
+    height:40px;
+}
+
+#search{
+    width:60px;
+    width:60px;
+}
+
+#search-here{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro div{
+   
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    color:white;
+    font-size:1.2em;
+    margin:0 200px;
+}
+
+#intro
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: url("./assets/b1.png");
+    height:850px;
+    width:100%
+    margin:10px;
+    
+
+}
+
+#intro ul{
+    display:flex;
+    justify-content:space-between;
+    list-style:none;
+    width:80%;
+    margin:20px;
+    padding:20px;
+}
+
+#intro div p{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+h1{
+    display:flex;
+    justify-items:center;
+    align-items:center;
+    font-size:4.5em;
+    padding:5px;
+    margin:0;
+    font-family:'Poppins', sans-serif;
+}
+
+#intro h3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.9em;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding:50px;
+
+}
+footer ul{
+    list-style:none;
+    text-decoration:none;
+    margin:0 10px;
+
+}
+
+.footer-link{
+    text-decoration:none;
+    color:rgb(128, 128, 128);
+    font-family:'Poppins', sans-serif;
+    font-size:1.1em;
+    padding:none;
+
+
+}
+
+#companies-img{
+    height:570px;
+    width:500px;
+}
+
+#companies div{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}

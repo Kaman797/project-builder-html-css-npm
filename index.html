@@ -29,43 +29,58 @@
 
     <nav>
         <ul>
-            <li><img src="./assets/black-heart.png" alt="black heart"></li>
-            <li><a href="#">National Poo Museum</a></li>
             <li>
                 <ul>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Documentation</a></li>
-                    <li><a href="#">Community</a></li>
+                    <li><img src="./assets/black-heart.png" alt="black heart"></li>
+                    <li><a href="#" class="nav-link links">National Poo Museum</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul id="right-top-link links">
+                    <li><a href="#" class="nav-link">Products</a></li>
+                    <li><a href="#" class="nav-link">Pricing</a></li>
+                    <li><a href="#" class="nav-link">Documentation</a></li>
+                    <li><a href="#" class="nav-link">Community</a></li>
                 </ul>
             </li>
         </ul>
     </nav>
 
     <header>
-        <img src="./assets/logo.png" alt="npm logo">
-        <img src="./assets/Search.png" alt="Search">
-        <form action="#">
-            <input type="text" placeholder="Search Packages">
-            <input type="button" placeholder="Search">
-            <ul>
-                <li><a href="#"></a>Sign Up</li>
-                <li><a href="#"></a>Sign In</li>
-            </ul>
-
-        </form>
+        <div id='search-here'>
+            <img id="logo" src="./assets/logo.png" alt="npm logo">
+            <img id="search" src="./assets/Search.png" alt="Search">
+            <form action="#">
+                <input type="text" placeholder="Search Packages">
+                <input type="button" placeholder="Search">
+            </form>
+        </div>
+        <ul>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Sign In</a></li>
+        </ul>
 
     </header>
 
     <section id="intro">
-        <h1>Build amazing things</h1>
-        <p>we're npm, inc., the company behind Node package manager, the npm Registry, and npm CLI. We offer those to
-            the community for free, but our day job is building and selling useful tools for developers like you.</p>
-        <h3>Take your javaScript development up a notch</h3>
-        <p>Get startec today for free, or step up to npm Pro to enjoy a premium JavaScript development experience, with
-            features like private packages.</p>
-        <a href="">Sign up for free</a>
-        <a href="">Learn about Pro</a>
+        <div>
+            <h1>Build amazing </h1>
+
+            <h1> things</h1>
+            <p>we're npm, inc., the company behind Node package manager, the npm Registry, and npm CLI. We offer those
+                to
+                the community for free, but our day job is building and selling useful tools for developers like you.
+            </p>
+            <h3>Take your javaScript development up a notch</h3>
+            <p>Get startec today for free, or step up to npm Pro to enjoy a premium JavaScript development experience,
+                with
+                features like private packages.</p>
+
+            <ul>
+                <li><a href="">Sign up for free</a></li>
+                <li><a href="">Learn about Pro</a></li>
+            </ul>
+        </div>
     </section>
 
 
@@ -88,41 +103,52 @@
 
 
     <section id="Companies">
-        <h3>Greatfully serving everyone from solo devs to the Fortune 500</h3>
-        <img src="./assets/company.png" alt="Image Company">
+        <div>
+            <h3>Greatfully serving everyone from solo devs to the Fortune 500</h3>
+        </div>
+        <div>
+            <img src="./assets/company.png" id="companies-img" alt="Image Company">
+        </div>
     </section>
 
 
     <footer>
         <img src="./assets/" alt="">
-        <div>
+        <div id='footer-inside'>
 
-            <div>
+            <div class="div-in-footer">
                 <h2>Support</h2>
-                <ul>
-                    <li><a href="#">Help</a></li>
-                    <li><a href="#">Community</a></li>
-                    <li><a href="#">Advisors</a></li>
-                    <li><a href="#">Status</a></li>
-                    <li><a href="#">Contact npm</a></li>
-                </ul>
+                <div>
+                    <ul>
+                        <li><a href="#" class="footer-link">Help</a></li>
+                        <li><a href="#" class="footer-link">Community</a></li>
+                        <li><a href="#" class="footer-link">Advisories</a></li>
+                        <li><a href="#" class="footer-link">Status</a></li>
+                        <li><a href="#" class="footer-link">Contact npm</a></li>
+                    </ul>
+                </div>
             </div>
-            <div>
+            <div class="div-in-footer">
                 <h2>Company</h2>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Press</a></li>
-                </ul>
+                <div>
+                    <ul>
+                        <li><a href="#" class="footer-link">About</a></li>
+                        <li><a href="#" class="footer-link">Blog</a></li>
+                        <li><a href="#" class="footer-link">Press</a></li>
+                    </ul>
+                </div>
             </div>
-            <div>
+            <div class="div-in-footer">
                 <h2>Terms & Policies</h2>
-                <ul>
-                    <li><a href="#">Policies</a></li>
-                    <li><a href="#">Terms of Use</a></li>
-                    <li><a href="#">Code of Coduct</a></li>
-                    <li><a href="#">Privacy</a></li>
-                </ul>
+                <div>
+                    <ul>
+                        <li><a href="#" class="footer-link">Policies</a></li>
+                        <li><a href="#" class="footer-link">Terms of Use</a></li>
+                        <li><a href="#" class="footer-link">Code of Coduct</a></li>
+                        <li><a href="#" class="footer-link">Privacy</a></li>
+                    </ul>
+                </div>
+
             </div>
 
         </div>
